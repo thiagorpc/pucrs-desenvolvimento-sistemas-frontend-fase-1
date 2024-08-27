@@ -8,8 +8,7 @@ Projeto individual da disciplina Desenvolvimento de Sistemas Frontend - PUCRS<br
 
 <p align="center">
 <a href="#-funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#-tecnologia">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#-OnLine">Demo Online</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#-instalacao">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#-componentes">Componentes</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#-bibliotecas">Bibliotecas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -27,7 +26,7 @@ Este projeto foi desenvolvido utilizando React para proporcionar uma plataforma 
 
 Além disso, o sistema oferece **validações e feedbacks** em tempo real para garantir uma experiência de usuário intuitiva e sem erros. Navegue pela interface simples e direta para gerenciar seu inventário de forma prática e divertida!
 
-## 🚀 [tecnologia]Tecnologias Utilizadas
+## 🚀 Tecnologias Utilizadas
 
 Esse projeto foi desenvolvido utilizando as seguintes tecnologias:
 
@@ -35,7 +34,7 @@ Esse projeto foi desenvolvido utilizando as seguintes tecnologias:
 - **React Router DOM:** Navegação entre diferentes páginas do aplicativo.
 - **React Bootstrap:** Componentes responsivos para a interface do usuário.
 
-## 🔖 [instalacao]Instalação
+## 🔖 Instalação
 
 1. Clone o repositório:
 
@@ -66,7 +65,7 @@ Após execução do projeto, este é o resultado esperado no navegador:
   <img alt="PUCRS | Desenvolvimento de Sistemas frontend" src=".github/garagem.png" width="90%">
 </p>
 
-## 💻 [componentes]Componentes
+## 💻 Componentes
 
 Este projeto é organizado em vários componentes React localizados no diretório ./src/Components. Cada componente tem uma responsabilidade específica para garantir a organização e manutenções eficientes.
 
@@ -92,7 +91,7 @@ Este projeto é organizado em vários componentes React localizados no diretóri
 
 - **ConfirmActionModal:** Modal que pede confirmação antes de realizar uma ação importante, como excluir um item.
 
-## 📝 [bibliotecas]Bibliotecas
+## 📝 Bibliotecas
 
 Este projeto utiliza o **Leaflet** e o **OpenStreetMap** para fornecer uma experiência de mapeamento interativa com uma geolocalização fictícia da loja **Garagem Hot Wheels**.
 
