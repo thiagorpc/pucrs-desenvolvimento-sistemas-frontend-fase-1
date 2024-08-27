@@ -8,12 +8,12 @@ Projeto individual da disciplina Desenvolvimento de Sistemas Frontend - PUCRS<br
 
 <p align="center">
 <a href="#-funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#-Tecnologias Utilizadas">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#-Instalação">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#-instalação">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#-componentes">Componentes</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#-bibliotecas">Bibliotecas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#-Conclusão">Conclusão</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#-Licença">Licença</a>
+<a href="#-conclusão">Conclusão</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#-licença">Licença</a>
 
 ## 💻 Funcionalidades
 
@@ -26,7 +26,7 @@ Este projeto foi desenvolvido utilizando React para proporcionar uma plataforma 
 
 Além disso, o sistema oferece **validações e feedbacks** em tempo real para garantir uma experiência de usuário intuitiva e sem erros. Navegue pela interface simples e direta para gerenciar seu inventário de forma prática e divertida!
 
-## 🚀 Tecnologias Utilizadas
+## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido utilizando as seguintes tecnologias:
 
@@ -113,10 +113,10 @@ Neste projeto, o Leaflet é utilizado para integrar mapas interativos em nossa a
 - **Marcadores e Anotações:** É possível adicionar marcadores e anotações aos mapas para destacar locais importantes.
 - **Interatividade:** Os usuários podem interagir com os mapas, como dar zoom e arrastar, para explorar diferentes áreas.
 
-## 🚗💨 [conclusao]Conclusão
+## 🚗💨 Conclusão
 
 Este projeto em React oferece uma interface completa para gerenciar uma coleção de carros Hot Wheels com funcionalidades de CRUD. Inclui navegação intuitiva, validação de formulários e integração com Leaflet e OpenStreetMap para visualização de localização. É uma solução prática e eficiente para adicionar, editar e excluir carros com facilidade.
 
-## 📝 [licenca]Licença
+## 📝 Licença
 
 Esse projeto está sob a licença MIT.
