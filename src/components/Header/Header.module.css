@@ -1,0 +1,53 @@
+/* Header.module.css */
+
+/* Estilo geral do Header */
+.header {
+  background-color: #fff;
+  position: relative;
+  z-index: 1000;
+  background-color: #1D5699;
+  padding: 0px;
+  /* Garante que o Header esteja acima de outros elementos */
+}
+
+/* Conteúdo do Header */
+.headerContent {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerContent h1 {
+  font-size: 20px;
+  color: #fff;
+}
+
+/* Botão de hambúrguer para telas pequenas */
+.menuToggle {
+  display: none;
+  /* Inicialmente escondido */
+  cursor: pointer;
+}
+
+/* As barras do botão de hambúrguer */
+.menuBar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin-bottom: 5px;
+  transition: background-color 0.3s ease;
+  padding: 0px;
+}
+
+/* Media query para telas pequenas */
+@media (max-width: 768px) {
+  .menuToggle {
+    display: block;
+    /* Exibe o botão de hambúrguer em telas pequenas */
+  }
+}

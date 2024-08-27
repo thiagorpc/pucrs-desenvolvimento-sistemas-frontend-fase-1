@@ -1,0 +1,73 @@
+/* NavBar.module.css */
+
+/* Estilo geral da Navbar */
+.navBar {
+  background-color: #fff;
+  padding: 10px 20px;
+  position: relative;
+  z-index: 1000;
+  /* Garante que a Navbar esteja acima de outros elementos */
+}
+
+/* Lista de itens da Navbar */
+.navList {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Itens da Navbar */
+.navItem {
+  margin: 0 15px;
+}
+
+/* Links da Navbar */
+.navLink {
+  color: #000;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.navLink:hover,
+.navLink.active {
+  text-decoration: none;
+  color: #f27a14;
+}
+
+/* Media query para telas pequenas */
+@media (max-width: 768px) {
+  .navBar {
+    background-color: #fff;
+    padding: 0px;
+  }
+
+  .navList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 0;
+    /* Inicialmente escondido em telas pequenas */
+    overflow: hidden;
+    position: absolute;
+    /* Ajuste conforme necessário */
+    width: 100%;
+    background-color: #fff;
+    /* Fundo branco para o menu dropdown */
+    transition: max-height 0.3s ease;
+    /* Transição suave ao abrir e fechar o menu */
+  }
+
+  .navList.open {
+    max-height: 300px;
+    /* Ajuste conforme necessário */
+  }
+
+  .navItem {
+    margin: 10px 0;
+    /* Espaço maior entre os itens do menu */
+  }
+}

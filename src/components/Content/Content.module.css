@@ -1,0 +1,170 @@
+/* Content.module.css */
+
+/* Seção de introdução com imagem de fundo */
+.introSection {
+  height: 500px;
+  background: url('/src/assets/img/garagem_1920x500.jpg') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  padding: 0 20px;
+  /* Adicionado padding para telas pequenas */
+}
+
+/* Texto na seção de introdução */
+.introText {
+  z-index: 1;
+}
+
+.introText h1 {
+  font-size: 3rem;
+  margin: 0;
+  font-weight: bold;
+}
+
+.introText p {
+  font-size: 1.25rem;
+  margin-top: 10px;
+}
+
+.acessoGaragem {
+  background-color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* Seção de botões com carrossel */
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Centraliza o conteúdo */
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+/* Contêiner do carrossel */
+.garagem {
+  max-width: 250px;
+  height: 200px;
+}
+
+.carros {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Estilo do texto e botão */
+.acesso {
+  text-align: center;
+  /* Centraliza o texto */
+  padding: 20px;
+  /* Ajusta o padding */
+  max-width: 600px;
+}
+
+.carousel-control-prev-icon {
+  color: red;
+}
+
+.acesso p {
+  margin-bottom: 20px;
+  font-size: 1.125rem;
+}
+
+/* Estilo do botão */
+.navigateButton {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #0B2242;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Estilo do botão ao passar o mouse */
+.navigateButton:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos dos controles do carrossel */
+.carouselControlPrevIcon,
+.carouselControlNextIcon {
+  filter: invert(100%);
+}
+
+.carouselControlPrev,
+.carouselControlNext {
+  filter: invert(100%);
+}
+
+.carouselControlPrev:hover,
+.carouselControlPrev:focus,
+.carouselControlNext:hover,
+.carouselControlNext:focus {
+  background-color: rgba(0, 123, 255, 0.5);
+  /* Fundo azul mais escuro no hover/foco */
+  color: #007bff;
+}
+
+/* Media Queries para Responsividade */
+
+/* Ajuste para telas menores */
+@media (max-width: 768px) {
+  .introText h1 {
+    font-size: 1.75rem;
+  }
+
+  .introText p {
+    font-size: 1rem;
+  }
+
+  .acessoGaragem {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .acesso p {
+    font-size: 1rem;
+  }
+
+  .navigateButton {
+    padding: 8px 16px;
+    font-size: 0.875rem;
+  }
+}
+
+/* Ajuste para telas muito pequenas */
+@media (max-width: 480px) {
+  .introSection {
+    height: 300px;
+  }
+
+  .introText h1 {
+    font-size: 1.25rem;
+  }
+
+  .introText p {
+    font-size: 0.875rem;
+  }
+
+  .acessoGaragem {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .acesso p {
+    font-size: 0.875rem;
+  }
+
+  .navigateButton {
+    padding: 6px 12px;
+    font-size: 0.75rem;
+  }
+}

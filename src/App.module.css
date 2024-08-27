@@ -1,0 +1,81 @@
+/* App.css */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  background-color: #F0F0F0;
+}
+
+body {
+  min-width: 400px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+p {
+  margin: 0px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  margin: 0px;
+  font-size: 12px;
+  text-align: left;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  background-color: #ffffff;
+  font-size: 14px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+
+}
+
+th {
+  background-color: #0072D0;
+  color: #ffffff;
+}
+
+thead {
+  background-color: #0072D0;
+}
+
+/* Adiciona espaço ao redor do conteúdo principal */
+.mainContent {
+  /* padding-top: 50px; */
+  flex: 1;
+}

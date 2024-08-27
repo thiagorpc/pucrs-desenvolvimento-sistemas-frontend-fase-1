@@ -1,0 +1,95 @@
+.footer {
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+  background-color: #15325F;
+  /* Cor de fundo do rodapé */
+  color: white;
+  /* Cor da fonte do rodapé */
+}
+
+.footerContainer {
+  display: flex;
+  /*justify-content: space-between;*/
+  /*max-width: 1200px;*/
+  margin: 0;
+  flex-wrap: wrap;
+  /* Permite que as colunas se movam para a próxima linha se necessário */
+}
+
+.footerColumn {
+  max-width: 200px;
+}
+
+.footerColumn,
+.footerColumnCenter {
+  flex: 1;
+  margin: 0 10px;
+  text-align: left;
+  font-size: 12px;
+  margin: 0px;
+}
+
+.footerColumnText16 {
+  margin-bottom: 16;
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+.footerColumRight {
+  right: 0px;
+  text-align: right;
+  font-size: 12px;
+  margin: 0;
+  margin-right: 40px;
+}
+
+.footerLogo {
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.footerContact {
+  color: orange;
+  margin-top: 10px;
+}
+
+/* Media Query para telas menores */
+@media (max-width: 840px) {
+
+  .footer {
+    position: relative;
+  }
+
+  .footerContainer {
+    flex-direction: column;
+    /* Empilha as colunas verticalmente em telas menores */
+    align-items: center;
+    /* Alinha as colunas ao centro */
+  }
+
+  .footerColumn,
+  .footerColumnCenter {
+    text-align: center;
+  }
+
+  .footerColumnCenter {
+    padding-top: 5px;
+    margin: 0px;
+  }
+
+  .footerColumRight {
+    position: relative;
+    padding-top: 20px;
+    text-align: center;
+    margin: 0px;
+  }
+
+  .footerLogo {
+    margin-bottom: 20px;
+  }
+
+}

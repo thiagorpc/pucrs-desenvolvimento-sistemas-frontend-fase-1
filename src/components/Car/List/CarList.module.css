@@ -1,0 +1,136 @@
+/* Container geral da tabela de carros */
+.tableContainer {
+  padding: 80px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Contêiner para os controles de busca e ações */
+.controls {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Estilo do campo de busca */
+.searchInput {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 10px;
+  flex: 1;
+  box-sizing: border-box;
+}
+
+/* Estilo do botão de adicionar */
+.addButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #15325F;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+/* Estilo do botão de adicionar ao passar o mouse */
+.addButton:hover {
+  background-color: #0056b3;
+}
+
+/* Estilo do botão de excluir */
+.deleteButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #dc3545;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Estilo do botão de excluir ao passar o mouse */
+.deleteButton:hover {
+  background-color: #c82333;
+}
+
+/* Estilo da tabela */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Estilo do cabeçalho da tabela */
+.table thead th {
+  background-color: #15325F;
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Estilo das células da tabela */
+.table tbody td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+/* Estilo das linhas alternadas na tabela
+.table tbody tr:nth-child(even) {
+  background-color: #DCE8F1;
+}
+  */
+
+/* Estilo da linha selecionada */
+.selectedRow {
+  background-color: #DCE8F1;
+  /* Cor de fundo para a linha selecionada */
+}
+
+
+/* Estilo do botão de editar */
+.editButton {
+  padding: 5px 10px;
+  font-size: 14px;
+  color: white;
+  background-color: #15325F;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Estilo do botão de editar ao passar o mouse */
+.editButton:hover {
+  background-color: #0056b3;
+}
+
+
+/* Estilo dos controles de paginação */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.pagination button:disabled {
+  background-color: #f1f1f1;
+  cursor: not-allowed;
+}
+
+.pagination .activePage {
+  background-color: #15325F;
+  color: white;
+  border-color: #15325F;
+}
