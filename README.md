@@ -8,13 +8,13 @@ Projeto individual da disciplina Desenvolvimento de Sistemas Frontend - PUCRS<br
 
 <p align="center">
 <a href="#-funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#-tecnologia">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#-OnLine">Demo Online</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#-instalacao">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#-componentes">Execução</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#-blibliotecas">Blibliotecas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#-componentes">Componentes</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#-bibliotecas">Bibliotecas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#-conclusao">Conclusão</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#memo-licença">Licença</a>
+<a href="#-licenca">Licença</a>
 
 ## 💻 Funcionalidades
 
@@ -27,7 +27,7 @@ Este projeto foi desenvolvido utilizando React para proporcionar uma plataforma 
 
 Além disso, o sistema oferece **validações e feedbacks** em tempo real para garantir uma experiência de usuário intuitiva e sem erros. Navegue pela interface simples e direta para gerenciar seu inventário de forma prática e divertida!
 
-## 🚀 Tecnologias Utilizadas
+## 🚀 [tecnologia]Tecnologias Utilizadas
 
 Esse projeto foi desenvolvido utilizando as seguintes tecnologias:
 
@@ -35,12 +35,7 @@ Esse projeto foi desenvolvido utilizando as seguintes tecnologias:
 - **React Router DOM:** Navegação entre diferentes páginas do aplicativo.
 - **React Bootstrap:** Componentes responsivos para a interface do usuário.
 
-## 🔖 Demonstração OnLine
-
-Utilize o link abaixo para visualizar site em execução:
-https://thiagorpc.github.io/pucrs-desenvolvimento-sistemas-frontend-fase-1/
-
-## Instalação
+## 🔖 [instalacao]Instalação
 
 1. Clone o repositório:
 
@@ -71,7 +66,7 @@ Após execução do projeto, este é o resultado esperado no navegador:
   <img alt="PUCRS | Desenvolvimento de Sistemas frontend" src=".github/garagem.png" width="90%">
 </p>
 
-## 💻 Componentes
+## 💻 [componentes]Componentes
 
 Este projeto é organizado em vários componentes React localizados no diretório ./src/Components. Cada componente tem uma responsabilidade específica para garantir a organização e manutenções eficientes.
 
@@ -97,7 +92,7 @@ Este projeto é organizado em vários componentes React localizados no diretóri
 
 - **ConfirmActionModal:** Modal que pede confirmação antes de realizar uma ação importante, como excluir um item.
 
-## 📝 Blibliotecas
+## 📝 [bibliotecas]Bibliotecas
 
 Este projeto utiliza o **Leaflet** e o **OpenStreetMap** para fornecer uma experiência de mapeamento interativa com uma geolocalização fictícia da loja **Garagem Hot Wheels**.
 
@@ -119,10 +114,10 @@ Neste projeto, o Leaflet é utilizado para integrar mapas interativos em nossa a
 - **Marcadores e Anotações:** É possível adicionar marcadores e anotações aos mapas para destacar locais importantes.
 - **Interatividade:** Os usuários podem interagir com os mapas, como dar zoom e arrastar, para explorar diferentes áreas.
 
-## 🚗💨 Conclusão
+## 🚗💨 [conclusao]Conclusão
 
 Este projeto em React oferece uma interface completa para gerenciar uma coleção de carros Hot Wheels com funcionalidades de CRUD. Inclui navegação intuitiva, validação de formulários e integração com Leaflet e OpenStreetMap para visualização de localização. É uma solução prática e eficiente para adicionar, editar e excluir carros com facilidade.
 
-## 📝 Licença
+## 📝 [licenca]Licença
 
 Esse projeto está sob a licença MIT.
